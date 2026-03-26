@@ -162,7 +162,7 @@ is the count of invertible elements — the flat ($m=0$) partition function.
 
 Given $P, Q \in \mathrm{TH}(\mathbb{F}_p)$ with $Q = [k]P$, find $k$:
 
-$$Z_{\mathrm{TH}}(P, Q) = \min\!\bigl\{k \in \{1,\ldots,|\mathrm{TH}(\mathbb{F}_p)|\} : [k]P = Q\bigr\}$$
+$$Z_{\mathrm{TH}}(P, Q) = \min\,\{k \in \{1,\ldots,|\mathrm{TH}(\mathbb{F}_p)|\} : [k]P = Q\}$$
 
 Pollard's $\rho$ requires $O(\sqrt{|\mathrm{TH}(\mathbb{F}_p)|})$ operations — fully exponential in the bit length of $p$.
 
